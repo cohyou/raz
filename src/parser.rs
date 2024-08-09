@@ -7,7 +7,7 @@ pub fn length_value(input: &[u8]) -> IResult<&[u8],&[u8]> {
     take(length)(input)
 }
 
-pub fn schema(input: &str) -> IResult<&str, &str> {
+pub fn schema(_input: &str) -> IResult<&str, &str> {
     unimplemented!()
 }
 
